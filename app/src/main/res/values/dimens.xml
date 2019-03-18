@@ -1,4 +1,8 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="fab_margin_top">75dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="fila_icon_width">50dp</dimen>
+>>>>>>> Conseitos OB & Refatoração das Views
 </resources>
