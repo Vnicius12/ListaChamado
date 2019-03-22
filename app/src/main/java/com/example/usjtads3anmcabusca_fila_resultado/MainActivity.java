@@ -28,10 +28,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String nomeFila = nomeFilaEditText.getEditableText().toString();
+<<<<<<< HEAD
                 Intent intent =
                         new Intent(MainActivity.this, ListaChamadosActivity.class);
                         intent.putExtra("nome_fila", nomeFila);
                         startActivity(intent);
+=======
+                Intent intent = new Intent(MainActivity.this, ListaChamadoActivity.class);
+                intent.putExtra("nome_fila", nomeFila);
+                startActivity(intent);
+>>>>>>> Cloning
             }
         });
     }

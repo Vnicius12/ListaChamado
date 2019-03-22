@@ -2,6 +2,7 @@ package com.example.usjtads3anmcabusca_fila_resultado;
 
 import java.io.Serializable;
 import java.util.List;
+<<<<<<< HEAD
 
 class Fila implements Serializable {
     private String nome;
@@ -26,10 +27,32 @@ class Fila implements Serializable {
         return iconId;
     }
 
+=======
+public class Fila implements Serializable {
+    private String nome;
+    private int iconId;
+    private List<Chamado> chamados;
+    public List<Chamado> getChamados() {
+        return chamados;
+    }
+    public void setChamados(List<Chamado> chamados) {
+        this.chamados = chamados;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public int getIconId() {
+        return iconId;
+    }
+>>>>>>> Cloning
     public void setIconId(int iconId) {
         this.iconId = iconId;
     }
 
+<<<<<<< HEAD
     public List<Chamado> getChamados() {
         return chamados;
     }
@@ -38,3 +61,10 @@ class Fila implements Serializable {
         this.chamados = chamados;
     }
 }
+=======
+    public Fila(String nome, int iconId) {
+        this.nome = nome;
+        this.iconId = iconId;
+    }
+}
+>>>>>>> Cloning
